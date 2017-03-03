@@ -60,7 +60,7 @@ function appExit() {
   console.log( 'Express shutdown: OK' );
   queue.shutdown( 5000, (err) => {
     console.log( 'Kue shutdown: ', err||'OK' );
+    console.log(`App '${process.title}' exiting on signal 'SIGINT', after ${process.uptime()} seconds running`);
     process.exit( 0 );
   });
-  console.log(`App '${process.title}' exiting on signal 'SIGINT', after ${process.uptime()} seconds running`);
 }
