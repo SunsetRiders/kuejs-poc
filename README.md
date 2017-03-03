@@ -29,3 +29,11 @@ Check kue.js UI in http://localhost:3001 to view all jobs statuses.
 ```shell-script
 docker-compose stop redis
 ```
+
+## Points of attention
+
+1. We are finishing Kue.js gracefully, so we must take care of that in our projects;
+
+2. We can set the `title` parameter of Kue.js to a more meaningfull name using what we receive in the requesting
+
+3. We can avoid exposing Kue.js UI in our apps, it can be made in an instance alone - security measures apply - since it is agnostic to any queue we create it will show all jobs from all queues.
