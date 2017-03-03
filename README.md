@@ -22,7 +22,7 @@ Check kue.js UI in http://localhost:3001 to view all jobs statuses.
 
 To stop this Poc, run:
 
-1. ^CRTL+C in your terminal to kill the app.js
+1. `^CTRL+C` in your terminal to kill the app.js
 
 2. Stop Redis:
 
