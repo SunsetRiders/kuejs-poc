@@ -1,6 +1,6 @@
 # kuejs-poc
 
-To start the PoC you need to:
+*To start the PoC you need to:*
 
 1. start a Redis DB via docker-compose:
 
@@ -20,7 +20,7 @@ You can use your browser to "GET localhost:3000" navigating to http://localhost:
 
 Check kue.js UI in http://localhost:3001 to view all jobs statuses.
 
-To stop this Poc, run:
+*To stop this PoC, run:*
 
 1. `^CTRL+C` in your terminal to kill the app.js
 
